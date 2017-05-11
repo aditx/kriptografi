@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa5fd9c6-4a11-413c-9e98-cc2430116c1a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESEncryption/des_encrypt_v01.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../research/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../research/dataset/read_data_csv.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Latihan01" afterPath="$PROJECT_DIR$/../Latihan01" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StreamChiper/sc_encrypt_v01.py" afterPath="$PROJECT_DIR$/StreamChiper/sc_encrypt_v01.py" />
     </list>
     <ignored path="Kriptografi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +31,8 @@
           <file leaf-file-name="sc_encrypt_v02.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/StreamChiper/sc_encrypt_v02.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6282272">
-                  <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+                <state vertical-scroll-proportion="0.4423408">
+                  <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -42,11 +42,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="sc_encrypt_v01.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="sc_encrypt_v01.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/StreamChiper/sc_encrypt_v01.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.65920824">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="des_encrypt_v01.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/DESEncryption/des_encrypt_v01.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -74,6 +84,7 @@
         <option value="$PROJECT_DIR$/VigenereChiper/vc_encrypt_v01.py" />
         <option value="$PROJECT_DIR$/StreamChiper/sc_encrypt_v02.py" />
         <option value="$PROJECT_DIR$/StreamChiper/sc_encrypt_v01.py" />
+        <option value="$PROJECT_DIR$/DESEncryption/des_encrypt_v01.py" />
       </list>
     </option>
   </component>
@@ -149,6 +160,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="StreamChiper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kriptografi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kriptografi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DESEncryption" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -551,18 +576,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StreamChiper/sc_encrypt_v02.py">
+    <entry file="file://$PROJECT_DIR$/StreamChiper/sc_encrypt_v01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6282272">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StreamChiper/sc_encrypt_v01.py">
+    <entry file="file://$PROJECT_DIR$/DESEncryption/des_encrypt_v01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65920824">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamChiper/sc_encrypt_v02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4423408">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding />
         </state>
       </provider>
