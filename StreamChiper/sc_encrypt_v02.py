@@ -4,31 +4,38 @@
 ######################################################
 
 def main():
-    #Define data variable
+
     S = [0, 1, 2, 3]
     K = [1, 7, 1, 7]
     z = 0
-    char = list('hi')
+    character = list('hi')
 
-    #Pengacakan S-Box
     for i in range(len(S)):
         z = (z + S[i] + K[i]) % 4
         S[i], S[z] = S[z], S[i]
-        print "Iterasi ke", (i+1), S
+        print "Iterasi ke", (i+1), ":", S
 
-    #Pseudo Random Byte
-    for c in range(len(char)):
-        i = (c + 1) % 4
-        #print "Ini i:", i, S[c]
-        z = (z + S[c]) % 4
-        #print "Ini z:", z
-        S[i], S[z] = S[z], S[i]
+    encrypt_rc4(S, character)
+
+def random_pseudo_byte(S, character):
+    j = 0
+    for i in range(len(character)):
+        i = (i + 1) % 4
+        j = (j + S[i]) % 4
+        S[i], S[j] = S[j], S[i]
+
         print "Pseudo Random ke", i, S
-        t = (S[i] +S[z]) % 4
+        t = (S[i] + S[j]) % 4
         k = S[t]
-    print "K :", k
+        yield k
 
-    # j = (2 + 1) % 4
-    # print j
+def encrypt_rc4(S, character):
+    cipher_chars = []
+    random_byte_gen = random_pseudo_byte(S, character)
+    for char in character:
+        byte = ord(char)
+        cipher_byte = byte ^ random_byte_gen.next()
+        cipher_chars.append(chr(cipher_byte))
+    print "Hasil Enkripsi :", ''.join(cipher_chars)
 
 main()
