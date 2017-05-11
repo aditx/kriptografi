@@ -35,16 +35,11 @@ def encrypt(kata, kunci):
         text += result
     print "Hasil Enkripsi dari {} adalah : {}".format(kata, text)
 
-
     #for ki in kunci:
     #     #print alphabet.index(ki)
     #     print ki
     #     for xi in enumerate(kata, start=0):
     #         print xi
     #         data_key.append(alphabet.index(ki))
-
-
-
-
 
 main()
