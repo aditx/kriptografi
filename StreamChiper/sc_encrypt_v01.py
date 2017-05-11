@@ -1,3 +1,8 @@
+######################################################
+#   Created by : Aditya Putra Indrayanto             #
+#   Program Enkrip dgn metode Stream Chiper Klasik   #
+######################################################
+
 alphabet = list('abcdefghijklmnopqrstuvwxyz')
 data_kata = {}
 data_key = {}

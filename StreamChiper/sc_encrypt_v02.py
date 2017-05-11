@@ -1,3 +1,7 @@
+######################################################
+#   Created by : Aditya Putra Indrayanto             #
+#   Program Enkrip dgn metode Stream Chiper Modern   #
+######################################################
 
 def main():
     #Define data variable
