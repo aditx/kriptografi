@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa5fd9c6-4a11-413c-9e98-cc2430116c1a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CaesarChiper/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CaesarChiper/cc_decrypt_v01.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CaesarChiper/cc_encrypt_v01.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VigenereChiper/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VigenereChiper/vc_encrypt_v01.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../research/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../research/dataset/read_data_csv.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Latihan01" afterPath="$PROJECT_DIR$/../Latihan01" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Kriptografi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +31,8 @@
           <file leaf-file-name="sc_encrypt_v02.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/StreamChiper/sc_encrypt_v02.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.27221173">
-                  <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+                <state vertical-scroll-proportion="0.37429112">
+                  <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -69,7 +64,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -179,6 +174,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Python.sc_encrypt_v02">
     <configuration default="false" name="sc_encrypt_v01" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -349,6 +347,9 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="aa5fd9c6-4a11-413c-9e98-cc2430116c1a" name="Default" comment="" />
@@ -551,8 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StreamChiper/sc_encrypt_v02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27221173">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.37429112">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding />
         </state>
       </provider>
