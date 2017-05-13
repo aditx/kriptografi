@@ -19,9 +19,10 @@ def main():
 
 def random_pseudo_byte(S, character):
     j = 0
-    for i in range(len(character)):
-        i = (i + 1) % 4
-        j = (j + S[i]) % 4
+    d = 0
+    for c in range(len(character)):
+        i = (c + 1) % 4
+        j = (j + S[d]) % 4
         S[i], S[j] = S[j], S[i]
 
         print "Pseudo Random ke", i, S
