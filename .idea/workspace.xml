@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa5fd9c6-4a11-413c-9e98-cc2430116c1a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CaesarChiper/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CaesarChiper/cc_decrypt_v01.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CaesarChiper/cc_encrypt_v01.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VigenereChiper/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VigenereChiper/vc_encrypt_v01.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../research/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../research/dataset/read_data_csv.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Latihan01" afterPath="$PROJECT_DIR$/../Latihan01" />
@@ -46,10 +40,12 @@
       <file leaf-file-name="des_encrypt_v01.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DESEncryption/des_encrypt_v01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0948905">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.29927006">
+              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#1456#1546#0" expanded="false" />
+                <element signature="e#1564#1596#0" expanded="false" />
+                <marker date="1495021752000" expanded="true" signature="1144:1189" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -423,7 +419,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47235578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47235578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -466,7 +462,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1456#1546#0" expanded="false" />
+            <element signature="e#1564#1596#0" expanded="false" />
+            <marker date="1495021752000" expanded="true" signature="1144:1189" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -484,7 +482,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1456#1546#0" expanded="false" />
+            <element signature="e#1564#1596#0" expanded="false" />
+            <marker date="1495021752000" expanded="true" signature="1144:1189" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -666,10 +666,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DESEncryption/des_encrypt_v01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0948905">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.29927006">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1456#1546#0" expanded="false" />
+            <element signature="e#1564#1596#0" expanded="false" />
+            <marker date="1495021752000" expanded="true" signature="1144:1189" placeholder="..." />
           </folding>
         </state>
       </provider>

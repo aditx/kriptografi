@@ -1,13 +1,9 @@
-import numpy as np
-import itertools
+
 from prettytable import PrettyTable
 
 def main():
     plaintext = list('COMPUTER')
     key = '133457799BBCDFF1'
-
-    # bin_plaintext = ' '.join(format(ord(x), '08b') for x in plaintext)
-    # print bin_plaintext
 
     data_plain_text = []
     for z in plaintext:
@@ -44,6 +40,17 @@ def main():
 
     print "\nMatrix Invers PlainText :\n"
     print pv.get_string(header=False, border=False)
+
+    data_transform_inv = list(data_transform)
+    for xi in range(len(data_transform)):
+        data_transform_inv[xi] = data_transform_inv[xi][:-1]
+
+    px = PrettyTable()
+    for colz in data_transform_inv:
+        px.add_row(colz)
+
+    print "\nMatrix Invers-1 PlainText :\n"
+    print px.get_string(header=False, border=False)
 
 def split(s, chunk_size):
     a = zip(*[s[i::chunk_size] for i in range(chunk_size)])
